@@ -249,6 +249,7 @@ header .container {
 .carusel .container {
   background-image: url("../imgs/Rectangle\ 4.svg");
   height: 540px;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -317,6 +318,18 @@ header .container {
   color: #fff;
 }
 
-
 /* ------------------------- */
 
+.service .container {
+  margin: 70px auto;
+  border: 1px solid red;
+  width: 1211px;
+  height: 457px;
+  top: 794px;
+  left: 358px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.service .container
