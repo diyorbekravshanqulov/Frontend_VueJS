@@ -248,11 +248,14 @@ header .container {
 
 .carusel .container {
   background-image: url("../imgs/Rectangle\ 4.svg");
-  height: 440px;
+  height: 540px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 .carusel .container::after {
   content: "";
@@ -263,3 +266,57 @@ header .container {
   width: 50%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.carusel .container .text {
+  width: 533px;
+  /* height: 132px; */
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+}
+
+.carusel .container .text h1 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.58px;
+  text-align: left;
+  color: #fff;
+}
+.carusel .container .text ul {
+  padding: 10px 20px;
+  width: Hug (330px) px;
+  height: Hug (86px) px;
+  top: 426px;
+  left: 351px;
+  gap: 10px;
+  opacity: 0px;
+  color: #fff;
+}
+
+.carusel .container .text li {
+  font-family: Open Sans;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+.carusel .container .text button {
+  border: none;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #cb883a;
+  vertical-align: middle;
+  padding: 16px 40px 16px 40px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.51px;
+  text-align: left;
+  color: #fff;
+}
+
+
+/* ------------------------- */
+
