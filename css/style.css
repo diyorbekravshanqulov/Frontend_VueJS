@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
 }
 
 header .container {
@@ -29,7 +35,7 @@ header .container {
   left: 496px;
   gap: 0px;
   opacity: 0px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
@@ -57,7 +63,7 @@ header .container {
 }
 
 .container .header_location p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
@@ -76,7 +82,7 @@ header .container {
 }
 
 .container .header_number h3 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 24px;
   font-weight: 600;
   line-height: 32.68px;
@@ -103,7 +109,7 @@ header .container {
   opacity: 0px;
 }
 .container .header_number .header_number_time p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
@@ -137,7 +143,7 @@ header .container {
 }
 
 .container .header_book .header_book_h3 h3 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
@@ -165,7 +171,7 @@ header .container {
 }
 
 .container .header_book .header_book_email p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
@@ -277,7 +283,7 @@ header .container {
 }
 
 .carusel .container .text h1 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 32px;
   font-weight: 700;
   line-height: 43.58px;
@@ -296,7 +302,7 @@ header .container {
 }
 
 .carusel .container .text li {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-top: 10px;
   font-size: 16px;
   font-weight: 400;
@@ -310,7 +316,7 @@ header .container {
   background-color: #cb883a;
   vertical-align: middle;
   padding: 16px 40px 16px 40px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 18px;
   font-weight: 500;
   line-height: 24.51px;
@@ -322,14 +328,221 @@ header .container {
 
 .service .container {
   margin: 70px auto;
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 96px;
   width: 1211px;
   height: 457px;
-  top: 794px;
+}
+
+.service .left .left_top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.service .left {
+  width: 305px;
+  height: 245px;
+  top: 829px;
   left: 358px;
   gap: 0px;
+  opacity: 0px;
+}
+.service .left .left_div {
+  font-family: "Open Sans";
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 136.18px;
+  text-align: left;
+  color: #d29650;
+}
+.service .left_p {
+  width: 299px;
+  height: 108px;
+  top: 966px;
+  left: 381px;
+  gap: 0px;
+  opacity: 0px;
+}
+.service .left_p p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+.service .left .left_div_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .left .left_div_p p {
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+.service .right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.service .box {
+  width: 390px;
+  height: 216px;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #d1d1d1;
+  gap: 20px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
+.service .right .box h3 {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  color: #1d1d1d;
+  text-align: left;
+}
+.service .right .box p {
+  margin-top: 10px;
+  font-family: "Open Sans";
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
 
-/* .service .container */
+/* ---------------------- */
+
+.about {
+  width: 100%;
+  height: 406px;
+  top: 1316px;
+  gap: 0px;
+  opacity: 0px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .container {
+  width: 1034px;
+  height: 279px;
+  top: 1373px;
+  left: 443px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about .container h1 {
+  font-family: "Open Sans";
+  color: #1d1d1d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.58px;
+  text-align: left;
+}
+
+.about .container .about_bottom {
+  margin-top: 42px;
+  width: 1034px;
+  height: 193px;
+  top: 1459px;
+  left: 443px;
+  gap: 0px;
+  opacity: 0px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about .container .about_bottom .about_box {
+  width: 221px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 192.92px;
+  top: 1459px;
+  left: 443px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.about .container .about_bottom .about_box h3 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #1d1d1d;
+}
+
+.about .container .about_bottom .about_box p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #d29650;
+  line-height: 27.24px;
+}
+
+/* ------------------------------ */
+
+.main .container {
+  border: 1px solid blue;
+}
+
+.main .container h2 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.58px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.main .main_infos {
+  margin-top: 72px;
+  padding: 70px 351px;
+  display: grid;
+  gap: 150px;
+}
+
+.main_infos .info {
+  display: flex;
+  gap: 134px;
+}
+.main_infos .info .img {
+  background-image: url("../imgs/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 565px;
+}
+
+.main_infos .info .img h3 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.58px;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 218px 88px;
+}
