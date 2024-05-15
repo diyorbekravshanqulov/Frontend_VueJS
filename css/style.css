@@ -853,4 +853,69 @@ iframe {
 
 /* ---------------------- */
 
+.contact {
+  margin-bottom: 100px;
+}
+.contact .container {
+  margin: 0 auto;
+  width: 1022px;
+  height: 349px;
+  top: 6450px;
+  left: 449px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: start; */
+  justify-content: center;
+}
 
+.contact .container h2 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.58px;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+.contact .container .contact_sheets {
+  margin-top: 39px;
+  width: 905px;
+  height: 266px;
+  top: 6533px;
+  left: 508px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact .container .contact_sheets form {
+  width: 50%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.contact .container .contact_sheets form input {
+  padding: 16px 20px 16px 20px;
+  width: 386px;
+  height: 54px;
+  gap: 10px;
+  opacity: 0px;
+  border: 1px solid #bcbcbc;
+}
+
+.contact .container .contact_sheets form input::placeholder {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.contact .container .contact_sheets .right_side area {
+  border: 1px solid #bcbcbc;
+  width: 100px;
+  height: 100px;
+}
