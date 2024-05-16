@@ -59,15 +59,44 @@
     </section>
 
     <section class="carusel">
-      <div class="container">
-        <div class="text">
-          <h1>СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА, ТАРЫ И УПАКОВКИ</h1>
-          <ul>
-            <li>Работаем с 2008 года</li>
-            <li>Производим 80 000 м² картона в сутки</li>
-            <li>Цены на 15% ниже рыночных</li>
-          </ul>
-          <button>Рассчитать заказ</button>
+      <div class="embla">
+        <div class="embla__container">
+          <div class="embla__slide">
+            <div class="text">
+              <h1>СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА, ТАРЫ И УПАКОВКИ</h1>
+              <ul>
+                <li>Работаем с 2008 года</li>
+                <li>Производим 80 000 м² картона в сутки</li>
+                <li>Цены на 15% ниже рыночных</li>
+              </ul>
+              <button>Рассчитать заказ</button>
+            </div>
+            <img src="./imgs/Rectangle 4.png" alt="foto" />
+          </div>
+          <div class="embla__slide">
+            <div class="text">
+              <h1>СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА, ТАРЫ И УПАКОВКИ</h1>
+              <ul>
+                <li>Работаем с 2008 года</li>
+                <li>Производим 80 000 м² картона в сутки</li>
+                <li>Цены на 15% ниже рыночных</li>
+              </ul>
+              <button>Рассчитать заказ</button>
+            </div>
+            <img src="./imgs/Rectangle 4.png" alt="foto" />
+          </div>
+          <div class="embla__slide">
+            <div class="text">
+              <h1>СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА, ТАРЫ И УПАКОВКИ</h1>
+              <ul>
+                <li>Работаем с 2008 года</li>
+                <li>Производим 80 000 м² картона в сутки</li>
+                <li>Цены на 15% ниже рыночных</li>
+              </ul>
+              <button>Рассчитать заказ</button>
+            </div>
+            <img src="./imgs/Rectangle 4.png" alt="foto" />
+          </div>
         </div>
       </div>
     </section>
@@ -408,26 +437,75 @@
       </div>
     </section>
 
-    <section class="marquee">
+    <section class="sec_marquee">
       <div class="container">
         <h2>НАШИ КЛИЕНТЫ</h2>
-        <div class="icons">
-          <img src="./imgs/Rectangle (4).png" alt="" />
-          <img src="./imgs/Rectangle (5).png" alt="" />
-          <img src="./imgs/Rectangle (6).png" alt="" />
-          <img src="./imgs/Rectangle (7).png" alt="" />
-          <img src="./imgs/Rectangle (4).png" alt="" />
-          <img src="./imgs/Rectangle (5).png" alt="" />
-          <img src="./imgs/Rectangle (6).png" alt="" />
-          <img src="./imgs/Rectangle (7).png" alt="" />
-          <img src="./imgs/Rectangle (4).png" alt="" />
-          <img src="./imgs/Rectangle (5).png" alt="" />
-          <img src="./imgs/Rectangle (6).png" alt="" />
-          <img src="./imgs/Rectangle (7).png" alt="" />
-          <img src="./imgs/Rectangle (4).png" alt="" />
-          <img src="./imgs/Rectangle (5).png" alt="" />
-          <img src="./imgs/Rectangle (6).png" alt="" />
-          <img src="./imgs/Rectangle (7).png" alt="" />
+        <div class="marquee">
+          <div class="marquee-content">
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (4).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (5).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (6).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (7).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (4).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (5).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (6).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (7).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (4).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (5).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (6).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (7).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (4).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (5).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (6).png" alt="" />
+            </div>
+
+            <div class="marquee-item">
+              <img src="./imgs/Rectangle (7).png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -486,5 +564,15 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+
+    <script type="text/javascript">
+      const emblaNode = document.querySelector(".embla");
+      const options = { loop: false };
+      const plugins = [EmblaCarouselAutoplay()];
+      const emblaApi = EmblaCarousel(emblaNode, options, plugins);
+    </script>
   </body>
 </html>
