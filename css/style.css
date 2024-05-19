@@ -694,7 +694,7 @@ td {
 }
 
 @media screen and (max-width: 375px) {
-  .main .container .main_infos {
+  .main .main_infos .info {
     display: block;
     margin: 0 auto;
     /* display: flex; Ensures the flex container behavior */
