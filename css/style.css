@@ -473,6 +473,10 @@ header .container {
 }
 
 @media screen and (max-width: 375px) {
+  .about, .about .container {
+    display: flex;
+    justify-content: center;
+  }
   .about .container .about_bottom {
     display: block;
     margin: 0 auto;
