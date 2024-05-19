@@ -291,6 +291,21 @@ header .container {
   height: 457px;
 }
 
+@media screen and (max-width: 375px) {
+  .service .container{
+    display: block;
+    margin: 0 auto;
+    /* display: flex; Ensures the flex container behavior */
+    /* flex-wrap: wrap; Allows wrapping of flex items onto multiple lines */
+  }
+  .service .container .right {
+    display: block;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+  }
+}
+
+
 .service .left .left_top {
   display: flex;
   justify-content: space-between;
@@ -456,6 +471,21 @@ header .container {
   color: #d29650;
   line-height: 27.24px;
 }
+
+@media screen and (max-width: 375px) {
+  .about .container .about_bottom {
+    display: block;
+    margin: 0 auto;
+    /* display: flex; Ensures the flex container behavior */
+    /* flex-wrap: wrap; Allows wrapping of flex items onto multiple lines */
+  }
+  .about .container .right {
+    display: block;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+  }
+}
+
 
 /* ------------------------------ */
 
@@ -662,6 +692,21 @@ td {
   color: #fff;
   opacity: 0px;
 }
+
+@media screen and (max-width: 375px) {
+  .main .container .main_infos {
+    display: block;
+    margin: 0 auto;
+    /* display: flex; Ensures the flex container behavior */
+    /* flex-wrap: wrap; Allows wrapping of flex items onto multiple lines */
+  }
+  .main .container .right {
+    display: block;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+  }
+}
+
 
 /* -------------------------------- */
 
@@ -949,6 +994,28 @@ td {
   font-weight: 500;
   line-height: 21.79px;
   color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .contact .container .contact_sheets {
+    display: block;
+    margin: 0 auto;
+    /* display: flex; Ensures the flex container behavior */
+    /* flex-wrap: wrap; Allows wrapping of flex items onto multiple lines */
+  }
+  .contact .container .right_side {
+    display: block;
+    margin: 10px auto;
+    /* flex-wrap: wrap; */
+  }
+  .contact .container form {
+    display: flex;
+    justify-content: center;  
+    padding: 0;
+  }
+  .contact .container form input {
+    width: 489px;
+  }
 }
 
 .contact .container .contact_sheets .right_side input {
