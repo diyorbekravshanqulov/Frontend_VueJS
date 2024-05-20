@@ -291,8 +291,9 @@ header .container {
   height: 457px;
 }
 
-@media screen and (max-width: 375px) {
-  .service .container{
+@media screen and (max-width: 400px) {
+  .service .container {
+    margin: 20px 0;
     display: block;
     margin: 0 auto;
     /* display: flex; Ensures the flex container behavior */
@@ -304,7 +305,6 @@ header .container {
     /* flex-wrap: wrap; */
   }
 }
-
 
 .service .left .left_top {
   display: flex;
@@ -472,8 +472,10 @@ header .container {
   line-height: 27.24px;
 }
 
-@media screen and (max-width: 375px) {
-  .about, .about .container {
+@media screen and (max-width: 400px) {
+  .about,
+  .about .container {
+    margin: 20px 0;
     display: flex;
     justify-content: center;
   }
@@ -489,7 +491,6 @@ header .container {
     /* flex-wrap: wrap; */
   }
 }
-
 
 /* ------------------------------ */
 
@@ -697,8 +698,9 @@ td {
   opacity: 0px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .main .main_infos .info {
+    margin: 20px 0;
     display: block;
     margin: 0 auto;
     /* display: flex; Ensures the flex container behavior */
@@ -710,7 +712,6 @@ td {
     /* flex-wrap: wrap; */
   }
 }
-
 
 /* -------------------------------- */
 
@@ -1000,8 +1001,9 @@ td {
   color: #fff;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .contact .container .contact_sheets {
+    margin: 20px 0;
     display: block;
     margin: 0 auto;
     /* display: flex; Ensures the flex container behavior */
@@ -1014,7 +1016,7 @@ td {
   }
   .contact .container form {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     padding: 0;
   }
   .contact .container form input {
@@ -1212,3 +1214,21 @@ footer .container .bottom_side .footer_location p {
 textarea {
   resize: none;
 }
+
+@media screen and (max-width: 400px) {
+  footer {
+    height: 500px;
+  }
+  footer .container {
+    display: block;
+    /* padding: 0; */
+    margin-top: 300px;
+  }
+  footer .top_side {
+    padding: 0;
+  }
+  footer .bottom_side {
+    display: block;
+  }
+}
+
